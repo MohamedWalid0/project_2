@@ -1,0 +1,300 @@
+body{
+    background-color: black;
+}
+.titleStyle {
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 78px;
+    line-height: 80px;
+    background-image: -webkit-gradient(linear,0% 0%,25% 100%,from(#803CFF),to(#5D06FF));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.titleDescription{
+    font-size: 1.2rem;
+}
+.icon-cup{
+    color: white;
+}
+.titleSubmit{
+    border-radius: 0%;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 2.5px;
+    border-image-source: linear-gradient(to left, #803CFF, #5D06FF);
+    color: white;    
+}
+.titleSubmit:hover{
+    background-image: -webkit-gradient(linear,0% 0%,25% 100%,from(#803CFF),to(#5D06FF));
+}
+/* -----------------------end section 1 ------------------ */
+.sectionOne:after{
+    content: '';
+    position: absolute;
+    z-index: 1;
+    width: 5px ;
+    height: 100px;
+    background-image: -webkit-gradient(linear,0% 0%,25% 100%,from(#803CFF),to(#5D06FF));
+    left: calc(50% - 2.5px);
+}
+
+.sectionTwoItem i{
+    font-size: 38px;
+    background-image: -webkit-gradient(linear,0% 0%,25% 100%,from(#803CFF),to(#5D06FF));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sectionTwoItem h4{
+    color: white;
+    font-size: 28px;
+    font-weight: 650;
+}
+.sectionTwoItem p{
+}
+
+/* -----------------------end section 2 ------------------ */
+.sectionTwo:after{
+    content: '';
+    position: absolute;
+    z-index: 1;
+    width: 5px ;
+    height: 100px;
+    background-image: -webkit-gradient(linear,0% 0%,25% 100%,from(#803CFF),to(#5D06FF));
+    left: calc(50% - 2.5px);
+    margin-top: 60px;
+}
+.sectionThreeTitle:before{
+    content: '';
+    position: absolute;
+    z-index: 1;
+    width: 70px ;
+    height: 5px;
+    background-image: -webkit-gradient(linear,0% 0%,25% 100%,from(#803CFF),to(#5D06FF));
+    left: 0%;
+    top:-10%;
+}
+
+
+
+.sectionThreeTitle{
+    color: white;
+    font-size: 40px;
+    position: relative;
+}
+
+.sectionThree h3{
+    color: white;
+}
+.sectionThree p{
+    font-size: 18px;
+}
+.sectionThree i{
+    font-size:3.5rem;
+    background-image: -webkit-gradient(linear,0% 0%,25% 100%,from(#803CFF),to(#5D06FF));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+/* ------------section 5 ----------------- */
+.sectionFiveTitle:before{
+    content: '';
+    position: absolute;
+    z-index: 1;
+    width: 70px ;
+    height: 5px;
+    background-image: -webkit-gradient(linear,0% 0%,25% 100%,from(#803CFF),to(#5D06FF));
+    left: 0%;
+    top:-10%;
+} 
+
+.sectionFiveTitle{
+    color: white;
+    font-size: 40px;
+    position: relative;
+}
+
+.sectionFiveButton{
+    border-radius: 0%;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 3.5px;
+    border-image-source: linear-gradient(to left, #803CFF, #5D06FF);
+    color: white;    
+}
+.sectionFiveButton:hover{
+    background-image: -webkit-gradient(linear,0% 0%,25% 100%,from(#803CFF),to(#5D06FF));
+}
+
+
+.SectionFiveItemIcon{
+
+    font-size:2.5rem;
+    background-image: -webkit-gradient(linear,0% 0%,25% 100%,from(#803CFF),to(#5D06FF));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.SectionFiveItemtitle{
+
+    color: white;
+    font-size: 25px;
+    font-weight: 650;
+}
+.SectionFiveItemIconTwo{
+    color: gray;
+    font-size: 22px;
+}
+.SectionFiveItem{
+    background-color: #191919;
+    position: relative;
+    transition: all 0.5s ;
+}
+.itemOneUseBorder:after{
+    content: '';
+    position: absolute;
+    width: calc(50% + 10px);
+    height: calc(50% + 10px);
+    background-image: -webkit-gradient(linear,0% 0%,25% 100%,from(#803CFF),to(#5D06FF));
+    z-index: -1;
+    left: -10px;
+    top: -10px;
+}
+.itemTwoUseBorder:after{
+    content: '';
+    position: absolute;
+    width: calc(50% + 10px);
+    height: calc(50% + 10px);
+    background-image: -webkit-gradient(linear,0% 0%,25% 100%,from(#803CFF),to(#5D06FF));
+    z-index: -999;
+    right: -10px;
+    bottom: -10px;
+
+}
+
+.SectionFiveItem:hover{
+
+    background-image: -webkit-gradient(linear,0% 0%,25% 100%,from(#803CFF),to(#5D06FF));
+    transform: translateY(-10px);
+}
+.itemOneUseBorder:hover:after{
+    display: none;
+}
+
+.itemTwoUseBorder:hover:after{
+    display: none;
+}
+
+.SectionFiveItem:hover h4{
+    color:white ;
+}
+.SectionFiveItem:hover i{
+    color:white !important ;
+    background-image: none !important;
+    -webkit-text-fill-color: initial;
+
+}
+.SectionFiveItem:hover p{
+    color:white !important;
+}
+.sectionFive:after{
+    content: '';
+    position: absolute;
+    z-index: 1;
+    width: 5px ;
+    height: 100px;
+    background-image: -webkit-gradient(linear,0% 0%,25% 100%,from(#803CFF),to(#5D06FF));
+    left: calc(50% - 2.5px);
+}
+
+
+
+/* -----------section6---------------------- */
+.sectionSixIntro h2{
+    color: white;
+    font-size: 2.8rem;
+    font-weight: 700;    
+}
+
+.SectionSixItemIcon{
+    font-size:2.5rem;
+    background-image: -webkit-gradient(linear,0% 0%,25% 100%,from(#803CFF),to(#5D06FF));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sectionSixPrice{
+    font-size: 36px;
+    font-weight: 600;
+    width: 100%;
+    display: inline-block;
+    border: 1.5px solid gray;
+    border-radius: 100px;
+    background-image: -webkit-gradient(linear,0% 0%,25% 100%,from(#803CFF),to(#5D06FF));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sectionSix ul{
+    padding-inline-start:0px;
+}
+.ulVerfiedIcon{
+    color: white;
+}
+
+.sectionSixItem{
+    background-color: #191919;
+    transition: all 1s;
+}
+
+
+
+.sectionSixItem:hover{
+    background-image: -webkit-gradient(linear,0% 0%,25% 100%,from(#803CFF),to(#5D06FF));
+    transform: translateY(-10px);
+}
+
+.sectionSixItem:hover i{
+    color: white;
+    background-image: none !important;
+    -webkit-text-fill-color: initial;
+}
+
+.sectionSixItem:hover p {
+  color: white !important ;
+}
+.sectionSixItem:hover span{
+    color: white;
+    background-image: none !important;
+    -webkit-text-fill-color: initial;
+  
+  }
+
+.sectionSix:after{
+    content: '';
+    position: absolute;
+    z-index: 1;
+    width: 5px ;
+    height: 100px;
+    background-image: -webkit-gradient(linear,0% 0%,25% 100%,from(#803CFF),to(#5D06FF));
+    left: calc(50% - 2.5px);
+}
+/* --------section 7------------ */
+.memberImage{
+    border-radius: 50%;
+}
+.socialMediaIcon{
+    font-size:1.5rem;
+    background-image: -webkit-gradient(linear,0% 0%,25% 100%,from(#803CFF),to(#5D06FF));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sectionSevenMember{
+    width: 100%;
+}
+
+.sectionSevenItem{
+    background-color: #191919;
+    border-radius: 8px;
+}
